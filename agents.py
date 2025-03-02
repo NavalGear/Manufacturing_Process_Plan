@@ -65,12 +65,28 @@ def create_material_selection_agent():
         and environmental considerations. Your expertise ensures that material choices will meet all 
         technical requirements while optimizing production efficiency and product quality.
         
-        IMPORTANT: Do NOT attempt to access any external files using generic file paths like 
-        "/path/to/document.txt". If you need material information, refer to the materials catalog 
-        in the "materials_catalogs" directory, which contains comprehensive material specifications 
-        and alternatives for each part number. The catalogs are named with the part number 
-        (e.g., "SC-2023-A001.txt"). Only use information provided directly in your context 
-        from previous agents.""",
+        IMPORTANT FILE ACCESS RESTRICTIONS:
+        
+        1. DO NOT attempt to access ANY files EXCEPT for the specific part catalog at:
+           "materials_catalogs/SC-2023-A001.txt"
+           
+        2. DO NOT attempt to access these files (they DO NOT exist):
+           - "materials_catalogs/materials_summary.txt"
+           - "materials_catalogs/AISI_4140.txt"
+           - "materials_catalogs/alloy_steel.txt"
+           - "/path/to/document.txt"
+           - Any other file not explicitly listed in point #1
+        
+        3. If the specific catalog file "materials_catalogs/SC-2023-A001.txt" is not found, 
+           DO NOT try other files - instead, rely solely on your internal knowledge and 
+           the information provided in the context from previous agents.
+        
+        4. Use ONLY the information provided directly in your context from previous agents and 
+           the single authorized catalog file.
+        
+        5. If you need information that is not available in the context or the authorized catalog file,
+           make reasonable assumptions based on standard material properties rather than trying to
+           access other unauthorized files.""",
         verbose=config.VERBOSE,
         allow_delegation=False,
         tools=[file_tool],
@@ -94,11 +110,28 @@ def create_tooling_selection_agent():
         and production volume. You stay current with the latest tooling technologies and can suggest innovative 
         solutions to improve manufacturing efficiency and quality.
         
-        IMPORTANT: Do NOT attempt to access any external files using generic file paths like 
-        "/path/to/document.txt". If you need tooling information, refer to the tooling catalog 
-        in the "tooling_catalogs" directory, which contains specific tooling recommendations 
-        for each part number. The catalogs are named with the part number (e.g., "SC-2023-A001.txt").
-        Only use information provided directly in your context from previous agents.""",
+        IMPORTANT FILE ACCESS RESTRICTIONS:
+        
+        1. DO NOT attempt to access ANY files EXCEPT for the specific part catalog at:
+           "tooling_catalogs/SC-2023-A001.txt"
+           
+        2. DO NOT attempt to access these files (they DO NOT exist):
+           - "tooling_catalogs/tooling_summary.txt"
+           - "tooling_catalogs/cutting_tools.txt"
+           - "tooling_catalogs/fixtures.txt"
+           - "/path/to/document.txt"
+           - Any other file not explicitly listed in point #1
+        
+        3. If the specific catalog file "tooling_catalogs/SC-2023-A001.txt" is not found, 
+           DO NOT try other files - instead, rely solely on your internal knowledge and 
+           the information provided in the context from previous agents.
+        
+        4. Use ONLY the information provided directly in your context from previous agents and 
+           the single authorized catalog file.
+        
+        5. If you need information that is not available in the context or the authorized catalog file,
+           make reasonable assumptions based on standard tooling knowledge rather than trying to
+           access other unauthorized files.""",
         verbose=config.VERBOSE,
         allow_delegation=False,
         tools=[file_tool],
@@ -118,17 +151,29 @@ def create_process_planning_agent():
         drilling, grinding, and other common manufacturing processes. You can determine the optimal
         sequence of operations to create a part according to specifications.
         
-        IMPORTANT: Do NOT attempt to access any external files using generic file paths like 
-        "/path/to/document.txt", "tooling_recommendations.txt", "/tooling_recommendations.txt",
-        "detailed_tooling_recommendations.txt", or any similar path with or without leading slashes.
+        IMPORTANT FILE ACCESS RESTRICTIONS:
         
-        Only use information provided directly in your context from previous agents (Design Analyzer, 
-        Materials Engineer, and Tooling Specialist). Do not try to read or access any files outside 
-        of what's explicitly mentioned in your task description. 
+        1. DO NOT attempt to access ANY files EXCEPT for the specific part standards at:
+           "process_standards/SC-2023-A001.txt"
+           
+        2. DO NOT attempt to access these files (they DO NOT exist):
+           - "tooling_recommendations.txt" (with or without leading slash)
+           - "detailed_tooling_recommendations.txt" (with or without leading slash)
+           - "process_standards/general_machining.txt"
+           - "process_standards/cutting_parameters.txt"
+           - "/path/to/document.txt"
+           - Any other file not explicitly listed in point #1
         
-        Your process plan should be based solely on the information provided in the context from previous agents.
-        If you cannot find certain information in the context, make reasonable assumptions based on
-        standard manufacturing practices rather than trying to access external files.""",
+        3. If the specific standards file "process_standards/SC-2023-A001.txt" is not found, 
+           DO NOT try other files - instead, rely solely on your internal knowledge and 
+           the information provided in the context from previous agents.
+        
+        4. Use ONLY the information provided directly in your context from previous agents and 
+           the single authorized standards file.
+        
+        5. If you need information that is not available in the context or the authorized standards file,
+           make reasonable assumptions based on standard manufacturing practices rather than trying to
+           access other unauthorized files.""",
         verbose=config.VERBOSE,
         allow_delegation=False,
         tools=[file_tool],
@@ -148,11 +193,28 @@ def create_quality_control_agent():
         You understand measurement techniques, inspection equipment, and quality standards
         such as ISO 9001.
         
-        IMPORTANT: Do NOT attempt to access any external files using generic file paths like 
-        "/path/to/document.txt". Only use information provided directly in your context from 
-        previous agents. Your quality assessment should be based solely on the information 
-        provided in the context from the Design Analyzer, Materials Engineer, Tooling Specialist, 
-        and Process Planner.""",
+        IMPORTANT FILE ACCESS RESTRICTIONS:
+        
+        1. DO NOT attempt to access ANY files EXCEPT for the specific quality standards at:
+           "quality_standards/SC-2023-A001.txt"
+           
+        2. DO NOT attempt to access these files (they DO NOT exist):
+           - "quality_standards/general_standards.txt"
+           - "quality_standards/inspection_methods.txt"
+           - "quality_standards/acceptance_criteria.txt"
+           - "/path/to/document.txt"
+           - Any other file not explicitly listed in point #1
+        
+        3. If the specific standards file "quality_standards/SC-2023-A001.txt" is not found, 
+           DO NOT try other files - instead, rely solely on your internal knowledge and 
+           the information provided in the context from previous agents.
+        
+        4. Use ONLY the information provided directly in your context from previous agents and 
+           the single authorized standards file.
+        
+        5. If you need information that is not available in the context or the authorized standards file,
+           make reasonable assumptions based on standard quality practices rather than trying to
+           access other unauthorized files.""",
         verbose=config.VERBOSE,
         allow_delegation=False,
         tools=[file_tool],
@@ -231,15 +293,28 @@ def create_material_selection_task(agent, context=None):
         4. Provide detailed justification for each recommendation
         5. Consider material availability and supply chain factors
         
-        IMPORTANT: Do NOT attempt to access any external files or paths like "/path/to/file.txt" or similar.
-        All the information you need is already provided in the context from the Design Analyzer's output.
+        IMPORTANT FILE ACCESS RESTRICTIONS:
         
-        If you need specific material information for this part (SC-2023-A001), you can access the materials catalog at:
-        "materials_catalogs/SC-2023-A001.txt"
+        1. DO NOT attempt to access ANY files EXCEPT for the specific part catalog at:
+           "materials_catalogs/SC-2023-A001.txt"
+           
+        2. DO NOT attempt to access these files (they DO NOT exist):
+           - "materials_catalogs/materials_summary.txt"
+           - "materials_catalogs/AISI_4140.txt"
+           - "materials_catalogs/alloy_steel.txt"
+           - "/path/to/document.txt"
+           - Any other file not explicitly listed in point #1
         
-        However, primarily use the information directly provided in the context from the Design Analyzer.
-        Use only the technical specifications, dimensions, material specifications, and other manufacturing
-        requirements that were provided in the context.
+        3. If the specific catalog file "materials_catalogs/SC-2023-A001.txt" is not found, 
+           DO NOT try other files - instead, rely solely on your internal knowledge and 
+           the information provided in the context from the Design Analyzer's output.
+        
+        4. Use ONLY the information provided directly in your context from the Design Analyzer
+           and the single authorized catalog file.
+        
+        5. If you need information that is not available in the context or the authorized catalog file,
+           make reasonable assumptions based on standard material properties rather than trying to
+           access other unauthorized files.
         
         Your recommendations should be practical and consider both technical and economic factors.
         """,
@@ -269,15 +344,28 @@ def create_tooling_selection_task(agent, context=None):
            - Tool life and cost-effectiveness
         6. Suggest any specialized tooling needs for complex features
         
-        IMPORTANT: Do NOT attempt to access any external files or paths like "/material_selection_analysis.txt"
-        or any similar paths. 
+        IMPORTANT FILE ACCESS RESTRICTIONS:
         
-        If you need specific tooling information for this part (SC-2023-A001), you can access the tooling catalog at:
-        "tooling_catalogs/SC-2023-A001.txt"
+        1. DO NOT attempt to access ANY files EXCEPT for the specific part catalog at:
+           "tooling_catalogs/SC-2023-A001.txt"
+           
+        2. DO NOT attempt to access these files (they DO NOT exist):
+           - "tooling_catalogs/tooling_summary.txt"
+           - "tooling_catalogs/cutting_tools.txt"
+           - "tooling_catalogs/fixtures.txt"
+           - "/material_selection_analysis.txt"
+           - Any other file not explicitly listed in point #1
         
-        However, primarily use the information directly provided in the context from previous 
-        agents (Design Analyzer and Materials Engineer). Use only the technical specifications and material
-        recommendations that were provided in the context.
+        3. If the specific catalog file "tooling_catalogs/SC-2023-A001.txt" is not found, 
+           DO NOT try other files - instead, rely solely on your internal knowledge and 
+           the information provided in the context from previous agents.
+        
+        4. Use ONLY the information provided directly in your context from previous agents and 
+           the single authorized catalog file.
+        
+        5. If you need information that is not available in the context or the authorized catalog file,
+           make reasonable assumptions based on standard tooling knowledge rather than trying to
+           access other unauthorized files.
         
         Your recommendations should be practical, considering both technical performance and economic factors.
         Be specific with tool designations, materials, coatings, and geometries where applicable.
@@ -300,27 +388,31 @@ def create_process_plan_task(agent, context=None):
         5. Calculate estimated machining times based on material characteristics and cutting parameters
         6. Identify potential manufacturing challenges related to material properties or tooling limitations
         
-        IMPORTANT: Do NOT attempt to access any external files or paths in any format, including but not limited to:
-        - "tooling_recommendations.txt"
-        - "/tooling_recommendations.txt" (with leading slash)
-        - "detailed_tooling_recommendations.txt"
-        - "/detailed_tooling_recommendations.txt" (with leading slash)
-        - "/path/to/file.txt"
-        - Any other file paths with or without leading slashes
+        IMPORTANT FILE ACCESS RESTRICTIONS:
         
-        All the information you need is already provided in the context from previous agents (Design Analyzer, 
-        Materials Engineer, and Tooling Specialist).
+        1. DO NOT attempt to access ANY files EXCEPT for the specific process standards at:
+           "process_standards/SC-2023-A001.txt"
+           
+        2. DO NOT attempt to access these files (they DO NOT exist):
+           - "tooling_recommendations.txt" (with or without leading slash)
+           - "/tooling_recommendations.txt" (with leading slash)
+           - "detailed_tooling_recommendations.txt" (with or without leading slash)
+           - "/detailed_tooling_recommendations.txt" (with leading slash)
+           - "process_standards/general_machining.txt"
+           - "process_standards/cutting_parameters.txt"
+           - "/path/to/file.txt"
+           - Any other file not explicitly listed in point #1
         
-        If you need specific manufacturing process planning standards for this part (SC-2023-A001), you can access 
-        the process standards reference at:
-        "process_standards/SC-2023-A001.txt"
+        3. If the specific standards file "process_standards/SC-2023-A001.txt" is not found, 
+           DO NOT try other files - instead, rely solely on your internal knowledge and 
+           the information provided in the context from previous agents.
         
-        However, primarily use the information directly provided in your context from previous agents.
-        If you cannot find certain information in the context, make reasonable assumptions based on
-        standard manufacturing practices rather than trying to access external files.
+        4. Use ONLY the information provided directly in your context from previous agents and 
+           the single authorized standards file.
         
-        Use ONLY the information directly provided in the context from previous tasks to create your process plan.
-        This includes all technical specifications, material properties, and tooling details provided by previous agents.
+        5. If you need information that is not available in the context or the authorized standards file,
+           make reasonable assumptions based on standard manufacturing practices rather than trying to
+           access other unauthorized files.
         
         Integrate the design specifications, material recommendations, and tooling suggestions into a 
         cohesive process plan. Your plan should be detailed enough for shop floor implementation, with 
@@ -349,16 +441,28 @@ def create_quality_review_task(agent, context=None):
         5. Evaluate if the suggested tooling and fixtures will produce parts that meet the required specifications
         6. Verify that the selected cutting parameters will achieve the required surface finishes and dimensional accuracy
         
-        IMPORTANT: Do NOT attempt to access any external files or paths like "/path/to/manufacturing_plan_document.txt".
-        All the information you need is already provided in the context from previous agents (Design Analyzer, 
-        Materials Engineer, Tooling Specialist, and Process Planner). 
+        IMPORTANT FILE ACCESS RESTRICTIONS:
         
-        If you need specific quality standards information for this part (SC-2023-A001), you can access the 
-        quality standards reference at:
-        "quality_standards/SC-2023-A001.txt"
+        1. DO NOT attempt to access ANY files EXCEPT for the specific quality standards at:
+           "quality_standards/SC-2023-A001.txt"
+           
+        2. DO NOT attempt to access these files (they DO NOT exist):
+           - "quality_standards/general_standards.txt"
+           - "quality_standards/inspection_methods.txt"
+           - "quality_standards/acceptance_criteria.txt"
+           - "/path/to/manufacturing_plan_document.txt"
+           - Any other file not explicitly listed in point #1
         
-        However, primarily use the information directly provided in the context from previous agents.
-        Use only the information from these previous tasks to create your quality assessment.
+        3. If the specific standards file "quality_standards/SC-2023-A001.txt" is not found, 
+           DO NOT try other files - instead, rely solely on your internal knowledge and 
+           the information provided in the context from previous agents.
+        
+        4. Use ONLY the information provided directly in your context from previous agents and 
+           the single authorized standards file.
+        
+        5. If you need information that is not available in the context or the authorized standards file,
+           make reasonable assumptions based on standard quality practices rather than trying to
+           access other unauthorized files.
         
         Your review should be thorough and focus on maintaining quality throughout the process,
         with special attention to how material properties, tooling choices, and process parameters 
