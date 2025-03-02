@@ -1,0 +1,210 @@
+TOOLING CATALOG FOR SHAFT COUPLING SC-2023-A001
+===============================================
+Document ID: TC-SC2023-A001-001
+Revision: 01
+Date: 2025-03-02
+Part Number: SC-2023-A001
+
+This catalog provides recommended tooling for the manufacturing of precision shaft coupling SC-2023-A001, based on the specified material (AISI 4140 Alloy Steel) and required tolerances.
+
+==== TURNING OPERATIONS TOOLING ====
+
+1. ROUGH TURNING OPERATIONS:
+   - Tool: CNMG 120408 Carbide Insert
+   - Insert Grade: ISO P25-P35 with TiAlN coating
+   - Tool Holder: PCLNR/L 2020K12
+   - Recommended Cutting Parameters:
+     * Cutting Speed: 120-150 m/min
+     * Feed Rate: 0.15-0.3 mm/rev
+     * Depth of Cut: 1.5-3.0 mm
+
+2. FINISH TURNING OPERATIONS:
+   - Tool: DNMG 150604 Carbide Insert
+   - Insert Grade: ISO P15-P25 with TiCN coating
+   - Tool Holder: PDJNR/L 2020K15
+   - Recommended Cutting Parameters:
+     * Cutting Speed: 150-180 m/min
+     * Feed Rate: 0.05-0.15 mm/rev
+     * Depth of Cut: 0.5-1.5 mm
+
+3. BORING OPERATIONS (INNER BORE):
+   - Tool: Solid Carbide Boring Bar with CCMT 060204 Insert
+   - Insert Grade: ISO P10-P20 with PVD coating
+   - Boring Bar: S25T-SCLCR/L 09
+   - Minimum Bore Diameter: 25mm
+   - Recommended Cutting Parameters:
+     * Cutting Speed: 110-140 m/min
+     * Feed Rate: 0.08-0.15 mm/rev
+     * Depth of Cut: 0.5-1.0 mm
+
+4. BORING OPERATIONS (FINISH BORING):
+   - Tool: Precision Boring Head with Microprecision Adjustment
+   - Insert: TCMT 110204 Fine-Grain Carbide
+   - Insert Grade: ISO P10 with Diamond Coating
+   - Boring Bar: S25T-STFCR/L 11
+   - Recommended Cutting Parameters:
+     * Cutting Speed: 130-160 m/min
+     * Feed Rate: 0.05-0.10 mm/rev
+     * Depth of Cut: 0.2-0.5 mm
+
+==== MILLING OPERATIONS TOOLING ====
+
+1. FLANGE FACE MILLING:
+   - Tool: Ø63mm Face Mill with 5 Inserts
+   - Insert: SEHT 1204AFSN
+   - Insert Grade: ISO P20-P30 with AlTiN coating
+   - Recommended Cutting Parameters:
+     * Cutting Speed: 140-170 m/min
+     * Feed per Tooth: 0.1-0.2 mm/tooth
+     * Depth of Cut: 1.0-2.0 mm
+     * Width of Cut: 75% of cutter diameter
+
+2. KEYWAY MILLING:
+   - Tool: Solid Carbide End Mill Ø8mm for Drive End Keyway
+   - Tool: Solid Carbide End Mill Ø7mm for Driven End Keyway
+   - Tool Grade: Micro-Grain Carbide with AlTiCrN coating
+   - Recommended Cutting Parameters:
+     * Cutting Speed: 100-130 m/min
+     * Feed per Tooth: 0.03-0.06 mm/tooth
+     * Depth of Cut: 1.0-1.5 mm per pass
+     * Width of Cut: Full slot
+
+3. BOLT CIRCLE DRILLING (M6 HOLES):
+   - Tool: Solid Carbide Drill Ø5.0mm
+   - Tool Grade: Micro-Grain Carbide with TiAlN coating
+   - Recommended Cutting Parameters:
+     * Cutting Speed: 80-100 m/min
+     * Feed: 0.08-0.12 mm/rev
+     * Coolant: Pressurized through-tool
+
+4. M6 THREADING:
+   - Tool: M6 x 1.0 Machine Tap
+   - Tool Material: HSS-E-PM with TiCN coating
+   - Recommended Cutting Parameters:
+     * Cutting Speed: 15-20 m/min
+     * Pitch: 1.0mm
+     * Coolant: Cutting oil or emulsion
+
+5. SET SCREW HOLES DRILLING (M8 HOLES):
+   - Tool: Solid Carbide Drill Ø6.8mm
+   - Tool Grade: Micro-Grain Carbide with TiAlN coating
+   - Recommended Cutting Parameters:
+     * Cutting Speed: 80-100 m/min
+     * Feed: 0.10-0.15 mm/rev
+     * Coolant: Pressurized through-tool
+
+6. M8 THREADING:
+   - Tool: M8 x 1.25 Machine Tap
+   - Tool Material: HSS-E-PM with TiCN coating
+   - Recommended Cutting Parameters:
+     * Cutting Speed: 15-20 m/min
+     * Pitch: 1.25mm
+     * Coolant: Cutting oil or emulsion
+
+==== GRINDING OPERATIONS TOOLING ====
+
+1. CYLINDRICAL GRINDING (OUTER DIAMETER):
+   - Wheel: Aluminum Oxide A60K5V
+   - Wheel Dimensions: Ø350 x 40 x Ø127mm
+   - Wheel Speed: 1800-2000 m/min
+   - Work Speed: 25-35 m/min
+   - Infeed: 0.005-0.02mm per pass
+   - Coolant: Water-based synthetic grinding fluid
+
+2. INTERNAL GRINDING (BORES):
+   - Wheel: Aluminum Oxide A60J5V
+   - Wheel Dimensions: Appropriate for bore diameter
+   - Wheel Speed: 30-35 m/s
+   - Work Speed: 25-30 m/min
+   - Infeed: 0.003-0.01mm per pass
+   - Coolant: Water-based synthetic grinding fluid
+
+3. FACE GRINDING (FLANGE FACES):
+   - Wheel: Aluminum Oxide A46K5V
+   - Wheel Dimensions: Ø400 x 50 x Ø127mm
+   - Wheel Speed: 1800-2000 m/min
+   - Work Speed: 20-30 m/min
+   - Infeed: 0.005-0.015mm per pass
+   - Coolant: Water-based synthetic grinding fluid
+
+==== HEAT TREATMENT TOOLING ====
+
+1. FIXTURING FOR HEAT TREATMENT:
+   - Material: Heat-Resistant Steel (H13)
+   - Design: Low-distortion support fixture
+   - Application: Support during quenching and tempering
+
+2. CASE HARDENING FIXTURES:
+   - Material: H13 Tool Steel
+   - Design: Masking fixtures for selective case hardening
+   - Application: Protection of non-hardened areas
+
+==== INSPECTION TOOLING ====
+
+1. DIMENSIONAL INSPECTION:
+   - Tools:
+     * Digital Micrometer Set (0-25mm, 25-50mm, 50-75mm, 75-100mm)
+     * Digital Bore Gauge Set (20-35mm)
+     * Height Gauge
+     * Dial Indicator with Magnetic Base
+     * CMM with Appropriate Probes
+
+2. SURFACE FINISH INSPECTION:
+   - Tool: Surface Roughness Tester
+   - Measuring Range: Ra 0.05-10.0 μm
+   - Resolution: 0.001 μm
+
+3. CONCENTRICITY INSPECTION:
+   - Tool: Dial Indicator with V-Block Mount
+   - Resolution: 0.001mm
+
+4. HARDNESS TESTING:
+   - Tool: Rockwell Hardness Tester
+   - Scales: HRC and HRB
+
+5. THREAD INSPECTION:
+   - Tool: Thread Plug Gauge Set
+   - Sizes: M6x1.0 and M8x1.25
+
+==== WORKHOLDING DEVICES ====
+
+1. ROUGH MACHINING:
+   - Device: 3-Jaw Chuck with Soft Jaws
+   - Design: Custom profiled to match part diameter
+
+2. FINISH MACHINING:
+   - Device: 4-Jaw Independent Chuck
+   - Design: With dial indicator for precise centering
+
+3. GRINDING OPERATIONS:
+   - Device: Magnetic Chuck with Custom Fixture
+   - Design: Low-distortion support system
+
+4. MILLING OPERATIONS:
+   - Device: Custom Fixture Plate with Locating Pins
+   - Design: Quick-change clamping system
+
+==== SPECIAL TOOLING ====
+
+1. DYNAMIC BALANCING:
+   - Equipment: Precision Dynamic Balancer
+   - Accuracy: ISO 1940 G6.3 or better
+
+2. EDGE BREAKING:
+   - Tool: Custom Edge Breaking Tool with Diamond Insert
+   - Design: 0.5mm radius former
+
+3. MARKING:
+   - Tool: Part Marking System
+   - Type: Dot peen or laser marking
+   - Information: Part number, material, and lot number
+
+==== NOTES ====
+
+1. All cutting tools should be inspected for wear after each operation
+2. Replace tools when wear exceeds manufacturer's recommendations
+3. Monitor tool temperatures during machining of AISI 4140
+4. Pre-heat tooling for operations following heat treatment
+5. Maintain records of tool life and performance for future optimization
+
+END OF TOOLING CATALOG 

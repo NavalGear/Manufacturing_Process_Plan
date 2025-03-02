@@ -1,0 +1,101 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment / virtualenv
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE configuration
+.idea/
+.vscode/
+*.swp
+*.swo
+.spyderproject
+.spyproject
+.ropeproject
+
+# OS specific files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Project specific
+data/*
+*.log
+logs/
+output/
+manufacturing_plan_*.json
+
+# Keep catalog contents
+!data/.gitkeep
+!materials_catalogs/
+!tooling_catalogs/
+!process_standards/
+!quality_standards/
+
+# But exclude any non-essential files in those directories
+materials_catalogs/*
+tooling_catalogs/*
+process_standards/*
+quality_standards/*
+
+# Keep the important catalog files and directory structure markers
+!materials_catalogs/.gitkeep
+!tooling_catalogs/.gitkeep
+!process_standards/.gitkeep
+!quality_standards/.gitkeep
+!materials_catalogs/SC-2023-A001.txt
+!tooling_catalogs/SC-2023-A001.txt
+!process_standards/SC-2023-A001.txt
+!quality_standards/SC-2023-A001.txt 

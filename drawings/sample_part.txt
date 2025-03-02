@@ -1,0 +1,40 @@
+TECHNICAL DRAWING SPECIFICATION
+=============================
+
+PART NAME: Shaft Coupling
+PART NUMBER: SC-2023-A001
+REVISION: B
+MATERIAL: AISI 4140 Steel (Heat Treated)
+
+DIMENSIONS:
+- Overall Length: 120mm ± 0.05mm
+- External Diameter (Large End): 80mm ± 0.02mm
+- External Diameter (Small End): 60mm ± 0.02mm
+- Internal Bore: 40mm ± 0.01mm
+- Keyway Width: 12mm ± 0.01mm
+- Keyway Depth: 6mm ± 0.01mm
+- Fillet Radius: 3mm ± 0.5mm
+
+SURFACE FINISH:
+- External Surfaces: Ra 1.6
+- Internal Bore: Ra 0.8
+- Keyway: Ra 3.2
+
+TOLERANCES:
+- Perpendicularity of Faces to Axis: 0.02mm
+- Concentricity of Bore to External Diameter: 0.015mm
+- Parallelism of Keyway to Axis: 0.01mm
+
+HEAT TREATMENT:
+- Hardness: 30-35 HRC
+
+NOTES:
+- Break all sharp edges 0.5mm x 45°
+- Part must be free from burrs and sharp edges
+- Magnetic Particle Inspection required after machining
+- All dimensions are in millimeters unless otherwise specified
+
+APPROVAL:
+- Designed by: J. Smith
+- Approved by: K. Johnson
+- Date: 2023-05-15 

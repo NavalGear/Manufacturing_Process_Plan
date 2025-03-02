@@ -1,0 +1,261 @@
+PROCESS PLANNING STANDARDS FOR SHAFT COUPLING SC-2023-A001
+======================================================
+Document ID: PS-SC2023-A001-001
+Revision: 01
+Date: 2025-03-02
+Part Number: SC-2023-A001
+
+This document provides manufacturing process planning standards, operation sequences, machining parameters, and best practices for producing the precision shaft coupling SC-2023-A001.
+
+==== STANDARD OPERATION SEQUENCE ====
+
+1. MATERIAL PREPARATION:
+   - Cut raw stock to length, adding 5mm allowance on each end face
+   - Face and center drill both ends for turning operations
+   - Perform preliminary inspection of material (hardness, dimensions)
+
+2. PRIMARY MACHINING SEQUENCE:
+   a. ROUGH TURNING OPERATIONS (Machine: CNC Lathe)
+      - Mount workpiece in 3-jaw chuck with tailstock support
+      - Rough turn outer diameter, allowing 0.5mm for finishing
+      - Rough turn flange profile
+      - Rough drill and bore with 1mm allowance for finish boring
+      - Deburr all edges
+   
+   b. FINISH TURNING OPERATIONS (Machine: CNC Lathe)
+      - Mount workpiece in 4-jaw chuck for concentricity
+      - Finish turn outer diameter to specified dimensions
+      - Finish turn flange profile
+      - Finish bore inner diameters to specifications
+      - Machine groove features
+      - Deburr all edges
+      - First inspection checkpoint
+
+3. SECONDARY MACHINING SEQUENCE:
+   a. MILLING OPERATIONS (Machine: CNC Mill)
+      - Mount workpiece in dividing head fixture
+      - Mill keyway to specified dimensions
+      - Mill any flats or non-rotational features
+      - Deburr all edges
+      - Second inspection checkpoint
+   
+   b. DRILLING OPERATIONS (Machine: CNC Mill or Drill Press)
+      - Drill bolt circle holes on flange
+      - Drill set screw holes
+      - Counterbore/countersink as specified
+      - Tap threaded holes
+      - Deburr all edges
+      - Third inspection checkpoint
+
+4. TERTIARY OPERATIONS:
+   a. HEAT TREATMENT (Outsourced or In-house Facility)
+      - Stress relieve at 580-650°C for 1 hour, air cool
+      - Through harden to specified hardness
+      - Temper at appropriate temperature to achieve final hardness
+      - Post-heat treatment inspection
+   
+   b. GRINDING OPERATIONS (Machine: Cylindrical Grinder)
+      - OD grinding of critical surfaces
+      - ID grinding of bores if required
+      - Fourth inspection checkpoint
+
+5. FINISHING OPERATIONS:
+   - Surface treatment/coating as specified
+   - Deburr and polish as required
+   - Final inspection
+
+==== MACHINING PARAMETERS ====
+
+1. TURNING PARAMETERS (AISI 4140):
+   a. ROUGH TURNING:
+      - Cutting Speed: 120-150 m/min
+      - Feed Rate: 0.25-0.40 mm/rev
+      - Depth of Cut: 2.0-5.0 mm
+      - Tool: Carbide insert, CNMG geometry, medium roughing grade
+   
+   b. FINISH TURNING:
+      - Cutting Speed: 150-180 m/min
+      - Feed Rate: 0.10-0.20 mm/rev
+      - Depth of Cut: 0.5-1.0 mm
+      - Tool: Carbide insert, DNMG geometry, finishing grade
+
+2. BORING PARAMETERS:
+   a. ROUGH BORING:
+      - Cutting Speed: 100-130 m/min
+      - Feed Rate: 0.20-0.30 mm/rev
+      - Depth of Cut: 1.0-3.0 mm
+      - Tool: Carbide boring bar with CCMT insert
+   
+   b. FINISH BORING:
+      - Cutting Speed: 130-160 m/min
+      - Feed Rate: 0.08-0.15 mm/rev
+      - Depth of Cut: 0.3-0.5 mm
+      - Tool: Carbide boring bar with DCMT insert
+
+3. MILLING PARAMETERS:
+   a. KEYWAY MILLING:
+      - Cutting Speed: 100-130 m/min
+      - Feed Rate: 0.05-0.10 mm/tooth
+      - Depth of Cut: 0.5-1.0 mm
+      - Tool: Solid carbide end mill, 4-flute
+
+   b. FACE MILLING:
+      - Cutting Speed: 120-150 m/min
+      - Feed Rate: 0.10-0.15 mm/tooth
+      - Depth of Cut: 0.5-2.0 mm
+      - Tool: Face mill with carbide inserts
+
+4. DRILLING PARAMETERS:
+   - Cutting Speed: 70-90 m/min
+   - Feed Rate: 0.08-0.15 mm/rev
+   - Tool: Carbide-tipped or solid carbide drills
+
+5. THREADING PARAMETERS:
+   - Cutting Speed: 80-100 m/min
+   - Feed Rate: Pitch-dependent
+   - Tool: Threading insert or tap appropriate for thread specifications
+
+6. GRINDING PARAMETERS:
+   a. OD GRINDING:
+      - Wheel Speed: 1500-1800 m/min
+      - Work Speed: 15-25 m/min
+      - Infeed: 0.01-0.03 mm/pass
+      - Wheel Type: Aluminum oxide, 60-80 grit
+   
+   b. ID GRINDING:
+      - Wheel Speed: 1200-1500 m/min
+      - Work Speed: 10-20 m/min
+      - Infeed: 0.01-0.02 mm/pass
+      - Wheel Type: Aluminum oxide, 80-100 grit
+
+==== WORKHOLDING STRATEGIES ====
+
+1. TURNING OPERATIONS:
+   - First Operation: 3-jaw chuck with tailstock support
+   - Second Operation: 4-jaw chuck for concentricity control
+   - Optional: Custom soft jaws for repeat production
+
+2. MILLING/DRILLING OPERATIONS:
+   - Dividing head with tailstock support
+   - Custom fixture plate with locating pins and clamps
+   - V-block with strap clamps for non-rotation
+
+3. GRINDING OPERATIONS:
+   - Between centers with drive dog
+   - Magnetic chuck with parallels
+   - Custom fixture for specialized features
+
+==== INSPECTION CHECKPOINTS ====
+
+1. FIRST INSPECTION CHECKPOINT (After Turning):
+   - Outer diameter dimensions
+   - Inner bore dimensions
+   - Flange dimensions
+   - Overall length
+   - Concentricity and runout measurements
+
+2. SECOND INSPECTION CHECKPOINT (After Milling):
+   - Keyway dimensions and position
+   - Flats or other non-rotational features
+
+3. THIRD INSPECTION CHECKPOINT (After Drilling/Tapping):
+   - Hole positions and dimensions
+   - Thread dimensions and quality
+   - Pattern accuracy (bolt circles)
+
+4. POST-HEAT TREATMENT INSPECTION:
+   - Hardness testing
+   - Checking for distortion
+   - Visual inspection for cracks
+
+5. FINAL INSPECTION:
+   - Full dimensional verification
+   - Surface finish measurement
+   - Functional testing
+   - Visual quality inspection
+
+==== PRODUCTION OPTIMIZATION ====
+
+1. CYCLE TIME REDUCTION:
+   - Combine operations where possible
+   - Optimize tool paths to minimize non-cutting movements
+   - Use higher cutting parameters where surface finish is not critical
+   - Implement quick-change tooling and fixtures
+
+2. TOOL LIFE OPTIMIZATION:
+   - Maintain consistent cutting parameters
+   - Use appropriate coolant and concentration
+   - Implement regular tool inspection and replacement schedule
+   - Match tool grades to operation requirements
+
+3. QUALITY IMPROVEMENT:
+   - Perform in-process inspection of critical dimensions
+   - Maintain coolant quality and concentration
+   - Control machine temperature through warm-up cycles
+   - Verify machine accuracy periodically
+
+==== TROUBLESHOOTING GUIDE ====
+
+1. COMMON ISSUES AND SOLUTIONS:
+   - Poor Surface Finish:
+     * Check tool condition and replace if worn
+     * Reduce feed rate and/or increase cutting speed
+     * Verify rigidity of workholding setup
+   
+   - Dimensional Inaccuracy:
+     * Check for tool deflection and use more rigid tooling
+     * Verify machine calibration
+     * Account for thermal expansion in precision operations
+   
+   - Thread Quality Issues:
+     * Verify correct tap/die size and condition
+     * Use proper tapping fluid
+     * Check alignment in the setup
+   
+   - Heat Treatment Distortion:
+     * Use proper fixturing during heat treatment
+     * Consider stress relief before final machining
+     * Allow for distortion in pre-heat treatment dimensions
+
+2. PROCESS-SPECIFIC CHALLENGES:
+   - Turning Chatter:
+     * Reduce overhang of boring bars
+     * Increase rigidity of workholding
+     * Adjust cutting parameters
+   
+   - Milling Vibration:
+     * Use shorter, more rigid tooling
+     * Reduce step-over in finishing passes
+     * Check and improve workpiece support
+
+==== SUSTAINABILITY CONSIDERATIONS ====
+
+1. MATERIAL EFFICIENCY:
+   - Optimize stock dimensions to minimize waste
+   - Recycle chips and cutting waste
+   - Use efficient nesting for multiple parts from plate stock
+
+2. ENERGY EFFICIENCY:
+   - Consolidate operations to minimize machine startups
+   - Utilize energy-efficient machines where possible
+   - Schedule operations to avoid peak energy demand periods
+
+3. COOLANT MANAGEMENT:
+   - Use appropriate concentration for extended coolant life
+   - Filter and recycle coolant where possible
+   - Dispose of spent coolant according to environmental regulations
+
+==== DOCUMENTATION REQUIREMENTS ====
+
+1. PROCESS DOCUMENTATION:
+   - Process traveler with operation details
+   - Setup sheets with tooling and parameter information
+   - CNC programs and revision control
+
+2. QUALITY DOCUMENTATION:
+   - Inspection reports for all checkpoints
+   - Material certifications
+   - Heat treatment certifications
+   - Final inspection report
+
+END OF PROCESS PLANNING STANDARDS 

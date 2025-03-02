@@ -1,0 +1,11 @@
+crewai>=0.102.0
+langchain>=0.2.4
+langchain-openai>=0.1.1
+openai>=1.13.3
+pymupdf>=1.24.0
+matplotlib>=3.7.0
+numpy>=1.25.0
+pandas>=2.0.0
+python-dotenv>=1.0.0
+autogen>=0.7.5
+typing_extensions>=4.5.0 

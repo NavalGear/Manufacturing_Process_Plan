@@ -1,0 +1,79 @@
+TECHNICAL DRAWING SPECIFICATIONS
+DOCUMENT: Shaft_Coupling_Design_Requirements_Final_v21.txt
+PART NUMBER: SC-2023-A001
+REVISION: 21
+DATE: 2023-12-15
+PROJECT: Power Transmission System Upgrade
+
+==== GENERAL DESCRIPTION ====
+This document contains the technical specifications for a precision rigid shaft coupling designed for high-torque power transmission applications in industrial equipment. The coupling connects two shafts with precision alignment requirements and must operate reliably in variable speed conditions.
+
+==== DIMENSIONAL SPECIFICATIONS ====
+- Overall Length: 75.0 ± 0.2 mm
+- Outer Diameter: 65.0 ± 0.1 mm
+- Inner Bore Diameter (Drive End): 30.0 ± 0.025 mm
+- Inner Bore Diameter (Driven End): 28.0 ± 0.025 mm
+- Keyway (Drive End): 8.0 × 4.0 × 25.0 mm (Width × Depth × Length)
+- Keyway (Driven End): 7.0 × 3.5 × 25.0 mm (Width × Depth × Length)
+- Mounting Holes: 6 × M6 threaded holes equally spaced on Ø55.0 mm bolt circle
+- Set Screw Holes: 4 × M8 threaded holes (2 per side, 90° offset)
+- Flange Thickness: 12.0 ± 0.05 mm (each end)
+- Center Section Thickness: 51.0 ± 0.1 mm
+
+==== TOLERANCE SPECIFICATIONS ====
+- Concentricity between Inner Bores: 0.01 mm
+- Perpendicularity of Flange Face to Bore: 0.015 mm
+- Parallelism between Flanges: 0.02 mm
+- Roundness of Bores: 0.008 mm
+- Surface Finish of Inner Bores: Ra 0.8 µm
+- Surface Finish of Outer Diameter: Ra 1.6 µm
+- Surface Finish of Flange Faces: Ra 3.2 µm
+- Thread Class for Threaded Holes: 6H
+
+==== MATERIAL SPECIFICATIONS ====
+- Base Material: AISI 4140 Alloy Steel (Alternative options may be proposed)
+- Heat Treatment: Quench and tempered to 28-32 HRC
+- Hardness of Bore Surfaces: 58-62 HRC (case hardened)
+- Corrosion Protection: Black oxide coating
+
+==== LOAD REQUIREMENTS ====
+- Maximum Torque Transmission: 1,500 N·m
+- Maximum Speed: 3,000 RPM
+- Maximum Misalignment Tolerance: 0.05 mm
+- Operating Temperature Range: -20°C to +120°C
+- Environment: Industrial, moderate exposure to lubricants and coolants
+
+==== SPECIAL REQUIREMENTS ====
+- Balancing: Dynamic balancing to ISO 1940 G6.3
+- Fatigue Life: Minimum 10⁷ cycles at 75% of maximum torque
+- Keyways must be manufactured to DIN 6885-1 standard
+- All sharp edges to be broken with 0.5 mm maximum radius
+- Part must be marked with part number, material, and lot number
+- 100% visual inspection required before shipping
+- Material certification required
+
+==== CRITICAL DIMENSIONS ====
+The following dimensions are critical to part function:
+- Inner bore diameters and their tolerances
+- Concentricity between bores
+- Parallelism between flanges
+- Keyway dimensions and positioning
+
+==== MANUFACTURING NOTES ====
+1. Keyways to be machined after heat treatment and grinding of bores
+2. Threaded holes to be machined before heat treatment
+3. Final grinding of bores to be performed after heat treatment and stress relief
+4. Balancing to be performed after all machining operations are complete
+5. Inspect critical dimensions using CMM and record results
+
+==== QUALITY ASSURANCE REQUIREMENTS ====
+- First Article Inspection (FAI) per AS9102
+- Material certification must be provided
+- Hardness test results must be documented
+- CMM inspection report for critical dimensions
+- Surface finish measurement report
+
+==== ADDITIONAL INFORMATION ====
+This shaft coupling is designed for precision power transmission in industrial mixing equipment. The application requires high-torque capacity, dimensional stability, and long service life. The design allows for minimal misalignment while maintaining zero backlash during operation.
+
+End of specification document. 

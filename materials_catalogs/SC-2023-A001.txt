@@ -1,0 +1,156 @@
+MATERIALS CATALOG FOR SHAFT COUPLING SC-2023-A001
+===============================================
+Document ID: MC-SC2023-A001-001
+Revision: 01
+Date: 2025-03-02
+Part Number: SC-2023-A001
+
+This catalog provides material specifications, properties, and alternatives for the manufacturing of precision shaft coupling SC-2023-A001.
+
+==== PRIMARY MATERIAL SPECIFICATION ====
+
+Material: AISI 4140 Alloy Steel (Chrome-Molybdenum Steel)
+Standard: ASTM A29/A29M, ASTM A322
+
+1. CHEMICAL COMPOSITION:
+   - Carbon (C): 0.38-0.43%
+   - Manganese (Mn): 0.75-1.00%
+   - Silicon (Si): 0.15-0.35%
+   - Chromium (Cr): 0.80-1.10%
+   - Molybdenum (Mo): 0.15-0.25%
+   - Phosphorus (P): 0.035% max
+   - Sulfur (S): 0.040% max
+
+2. MECHANICAL PROPERTIES (HEAT TREATED CONDITION):
+   - Tensile Strength: 900-1050 MPa (130-152 ksi)
+   - Yield Strength: 650-750 MPa (94-109 ksi)
+   - Elongation: 12-18%
+   - Reduction of Area: 35-45%
+   - Hardness: 28-32 HRC (after heat treatment)
+   - Impact Strength (Charpy V-notch): 20-30 J at room temperature
+
+3. PHYSICAL PROPERTIES:
+   - Density: 7.85 g/cm³
+   - Melting Point: 1416°C (2580°F)
+   - Thermal Conductivity: 42.6 W/m·K at 20°C
+   - Coefficient of Thermal Expansion: 12.3 μm/m·K at 20-100°C
+   - Young's Modulus: 210 GPa
+   - Poisson's Ratio: 0.29
+
+4. MANUFACTURING CHARACTERISTICS:
+   - Machinability: 65% (relative to AISI 1212 steel = 100%)
+   - Weldability: Fair to Good (preheat and post-weld heat treatment recommended)
+   - Heat Treatment: Excellent response to heat treatment
+   - Formability: Good in annealed condition
+   - Surface Treatments: Suitable for nitriding, carburizing, induction hardening, black oxide coating
+
+5. COST CONSIDERATIONS:
+   - Relative Cost Index: Medium (2.3 on scale 1-5)
+   - Availability: Excellent - widely available in various forms and sizes
+   - Lead Time: Standard (typically 1-2 weeks)
+   - Processing Cost: Medium
+
+6. SUSTAINABILITY FACTORS:
+   - Recyclability: Excellent (100% recyclable)
+   - Carbon Footprint: Medium (2.1 kg CO₂ equivalent per kg of steel)
+   - Energy Intensity: Medium (24 MJ/kg for production)
+   - Resource Depletion: Medium
+
+7. RECOMMENDED HEAT TREATMENT:
+   - Normalize: 870-900°C (1600-1650°F), air cool
+   - Austenitize: 845-870°C (1550-1600°F), oil quench
+   - Temper: 540-650°C (1000-1200°F) for 2 hours, air cool
+   - Stress Relief: 650-675°C (1200-1250°F) for 1 hour per 25mm thickness
+
+8. SURFACE FINISH OPTIONS:
+   - Black Oxide Coating (as specified in drawing)
+   - Alternative Finishes: Phosphate coating, chrome plating, nickel plating
+
+==== ALTERNATIVE MATERIALS ====
+
+1. AISI 4340 ALLOY STEEL:
+   - Advantages:
+     * Higher strength and toughness than 4140
+     * Better fatigue resistance
+     * Superior impact strength
+   - Disadvantages:
+     * Higher cost (20-30% more expensive)
+     * Slightly lower machinability
+     * Longer lead times
+
+2. AISI 8620 ALLOY STEEL:
+   - Advantages:
+     * Excellent case-hardening properties
+     * Better machinability than 4140
+     * Good combination of core toughness and surface hardness
+   - Disadvantages:
+     * Lower core hardness
+     * Reduced strength for high-torque applications
+     * May require more complex heat treatment
+
+3. 42CrMo4 (EU EQUIVALENT):
+   - Advantages:
+     * European standard equivalent to 4140
+     * Potentially better availability in European markets
+     * Consistent properties
+   - Disadvantages:
+     * No significant advantages over 4140
+     * May have different certification requirements
+
+4. 17-4 PH STAINLESS STEEL:
+   - Advantages:
+     * Excellent corrosion resistance
+     * High strength (comparable to 4140)
+     * Good dimensional stability
+   - Disadvantages:
+     * Significantly higher cost (3-4 times more expensive)
+     * More difficult to machine
+     * Different heat treatment requirements
+
+5. 7075-T6 ALUMINUM:
+   - Advantages:
+     * Significantly lighter weight (65% lighter than steel)
+     * Excellent machinability
+     * No need for corrosion-protective coating
+   - Disadvantages:
+     * Lower tensile strength
+     * Poor weldability
+     * Lower temperature resistance
+     * Not suitable for high-torque applications
+
+==== MATERIAL SELECTION GUIDELINES ====
+
+1. PERFORMANCE CRITERIA:
+   - For high-torque applications: AISI 4140 or AISI 4340
+   - For corrosive environments: 17-4 PH Stainless Steel
+   - For weight-sensitive applications: 7075-T6 Aluminum (with redesign for strength)
+   - For case-hardened applications: AISI 8620
+
+2. COST CONSIDERATIONS:
+   - Budget-conscious: AISI 4140 (best balance of performance and cost)
+   - Performance-priority: AISI 4340
+   - Corrosion-resistance-priority: 17-4 PH Stainless Steel
+
+3. MANUFACTURABILITY CONSIDERATIONS:
+   - Ease of machining: 7075-T6 Aluminum > AISI 8620 > AISI 4140 > AISI 4340 > 17-4 PH
+   - Heat treatment complexity: AISI 4140 < AISI 4340 < AISI 8620 < 17-4 PH
+   - Surface treatment options: All materials compatible with various treatments
+
+4. SUSTAINABILITY CONSIDERATIONS:
+   - Carbon footprint: Aluminum has higher production footprint but lighter weight
+   - Recyclability: All materials highly recyclable
+   - Resource depletion: Stainless steel has higher impact due to nickel and chromium
+
+==== RECOMMENDATION FOR SC-2023-A001 ====
+
+Based on the specified requirements for the shaft coupling SC-2023-A001, AISI 4140 Alloy Steel is the recommended primary material due to:
+1. Excellent balance of strength, toughness, and wear resistance
+2. Good machinability for achieving the required tolerances
+3. Excellent response to heat treatment to achieve specified hardness
+4. Ability to accept black oxide coating for corrosion protection
+5. Cost-effectiveness and readily available supply chain
+6. Proven track record in similar precision coupling applications
+
+For specific applications where weight reduction, increased corrosion resistance, or higher strength is required, the alternative materials listed above should be considered, with appropriate design modifications to accommodate different material properties.
+
+END OF MATERIALS CATALOG 
